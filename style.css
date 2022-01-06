@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.left-slice-style {
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+
+.header-section h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size:  38px;
+   margin: 7px 0px;
+
+}
+
+.orange {
+    color: orange;
+}
+
+#white {
+    color: white;
+}
+
+
+.half-width img {
+    width: 236px;
+    height: 255px;
+}
+
+.half-width  {
+width: 50%;
+padding: 6% 6%;
+}
+
+.flexbox-container  {
+    display: flex;
+    margin-bottom: 60px;
+   
+}
+
+.half-width p {
+    font-size: 13px;
+    color: rgb(68 54 54); 
+    
+    width: 266px;
+    line-height: 16px;
+    text-align: justify;
+    margin: 18px 0px;
+    font-family: sans-serif;
+}
+
+#scroll {
+    font-size: 11px;
+}
+
+.btn {
+    background: tomato;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 3px;
+    color: white; 
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+   
+}
+
+/* Mission Area styling here */
+
+.box  {
+    border-radius: 10px;
+    width: 33%;
+    /* height: 229px; */
+    margin: 2%  ; 
+    padding-left: 15px;
+    background-color:#edf5f6 ;
+    box-shadow: 1px 1px 5px;
+}
+
+.mideum-text {
+    font-size: 12px;
+    color: rgb(68 54 54); 
+    width: 96%;
+    line-height: 16px;
+    text-align: justify;
+    margin: 18px 0px;
+    font-family: sans-serif;
+}
+
+.box h3 {
+   font-size: 20px;
+   margin: 5px 0;
+}
+
+.box img {
+    width: 100px;   
+}
+
+#box2 {
+    background:#ffeeee ;
+}
+
+#box3 {
+    background: #fff4d6;
+}
+
+.center {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} 
+
+.title {
+    font-size:  27px;
+}
+
+form {
+    height: 248px;
+    width: auto;
+    border-radius: 7px;
+    background: linear-gradient(#26a9a3,black);
+    padding: 7px; 
+    color: white;
+}
+
+.form-input{
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+  background: rgb(199 207 207 / 57%);;
+  outline: none;
+  border: 1px solid orange;
+}
+
+#send {  
+    background: tomato;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 3px;
+    color: white; 
+    padding: 7px;
+   border: none;
+   outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-align:center;
+    margin: 0 auto;
+    width: 253px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    height: 100px;
+
+} 
+
+footer h3 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-top: 30px;
+
+}
+
+footer p {
+    color: white;
+    font-size: 9px;
+   padding-top: 20px;
+
+} 
